@@ -5,11 +5,15 @@ body{
 .title{
     color: green;
     text-align: center;
+    margin-bottom: 40px;
 }
 .first-section-parent{
     display: flex;
     width: 80%;
     margin: auto;
+}
+.first-section-left{
+    margin-top: 60px;
 }
 .photo img{
     width: 300px;
@@ -39,14 +43,14 @@ body{
     justify-content: space-evenly;
     padding: 50px;
 }
-.dhaka{
+.division{
     width: 250px;
     border: 1px solid gray;
     box-shadow: 4px 4px 12px gray;
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px 10px 15px 10px;
 }
-.dhaka-image img{
+.division-image img{
     width: 100%;
 }
 .division-button{
