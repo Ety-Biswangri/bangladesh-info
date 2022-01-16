@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.title{
+    color: green;
+    text-align: center;
+}
+.first-section-parent{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.photo img{
+    width: 300px;
+}
+.details-button{
+    padding: 10px 50px;
+    background-image: linear-gradient(45deg, green, red, green);
+    border: none;
+    outline: 0;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.details-button:hover{
+    padding: 8px 45px;
+    border: 3px solid green;
+    font-size: large;
+    cursor: pointer;
+}
+.second-section-parent{
+    text-align: center;
+    margin-top: 50px;
+}
+.all-divisions{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.dhaka{
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+.dhaka-image img{
+    width: 100%;
+}
+.division-button{
+    border: none;
+    outline: 0;
+    padding: 5px 10px;
+    font-size: 15px;
+    background-color: rgba(194, 10, 47, 0.822);
+    border-radius: 5px;
+    color: white;
+    transition: .5s;
+}
+.division-button:hover{
+    cursor: pointer;
+    padding: 5px 15px;
+    font-size: 1em;
+}
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
